@@ -19,3 +19,4 @@ background_Rectangle = {"container": thermostat_RoomsView, "id": "background", "
 thermostat_bottomMenu_BottomBar = {"container": thermostat_QQuickWindowQmlImpl, "id": "bottomMenu", "type": "BottomBar", "unnamed": 1, "visible": True}
 bottomMenu_image_IconImage = {"checkable": True, "container": thermostat_bottomMenu_BottomBar, "id": "menuItem", "occurrence": 2, "type": "TabButton", "unnamed": 1, "visible": True}
 bottomMenu_image_IconImage_2 = {"container": thermostat_bottomMenu_BottomBar, "objectName": "image", "source": "qrc:/qt/qml/content/images/home.svg", "type": "IconImage", "visible": True}
+scrollView_background_Rectangle = {"container": scrollView_RoomsScrollView, "id": "background", "type": "Rectangle", "unnamed": 1, "visible": True}
