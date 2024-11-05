@@ -14,10 +14,7 @@ def main():
 def save_screenshot(obj_name, filename):
     widget = waitForObject(obj_name)
     img = object.grabScreenshot(widget)
-    print("Current working directory:", os.getcwd())
-
     img.save(filename)
-
     testData.get(filename)
 
 def registerAUT(aut, path, squishserver_host=None, squishserver_port=None):
