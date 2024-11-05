@@ -1,6 +1,6 @@
 # GDMS-Capstone
 
-## Reminders
+## Dev Reminders
 
 ### Branch naming convention
 - **TG-{ticketNumber}**: ticketNumber corresponds to Tiga backlog ticket number. 
