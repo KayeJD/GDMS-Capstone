@@ -1,0 +1,49 @@
+# encoding: UTF-8
+
+from objectmaphelper import *
+
+thermostat_QQuickWindowQmlImpl = {"title": "Thermostat", "type": "QQuickWindowQmlImpl", "unnamed": 1, "visible": True}
+thermostat_Thermostat_Control_Label = {"container": thermostat_QQuickWindowQmlImpl, "text": "Thermostat Control", "type": "Label", "unnamed": 1, "visible": True}
+thermostat_ThermostatView = {"container": thermostat_QQuickWindowQmlImpl, "type": "ThermostatView", "unnamed": 1, "visible": True}
+delegate_ThermostatScrollView = {"container": thermostat_ThermostatView, "id": "delegate", "type": "ThermostatScrollView", "unnamed": 1, "visible": True}
+delegate_image_IconImage = {"container": delegate_ThermostatScrollView, "objectName": "image", "source": "qrc:/qt/qml/content/images/power.svg", "type": "IconImage", "visible": True}
+thermostat_Rooms_Label = {"container": thermostat_QQuickWindowQmlImpl, "text": "Rooms", "type": "Label", "unnamed": 1, "visible": True}
+o_CustomComboBox = {"container": thermostat_ThermostatView, "type": "CustomComboBox", "unnamed": 1, "visible": True}
+thermostat_Overlay = {"container": thermostat_QQuickWindowQmlImpl, "type": "Overlay", "unnamed": 1, "visible": True}
+comboBoxItem_ItemDelegate = {"checkable": False, "container": thermostat_Overlay, "id": "comboBoxItem", "occurrence": 2, "type": "ItemDelegate", "unnamed": 1, "visible": True}
+delegate_background_Rectangle = {"container": delegate_ThermostatScrollView, "id": "background", "occurrence": 12, "type": "Rectangle", "unnamed": 1, "visible": True}
+thermostat_Settings_Label = {"container": thermostat_QQuickWindowQmlImpl, "text": "Settings", "type": "Label", "unnamed": 1, "visible": True}
+thermostat_Dark_Light_Label = {"container": thermostat_QQuickWindowQmlImpl, "text": "Dark/Light", "type": "Label", "unnamed": 1, "visible": True}
+thermostat_item1_ItemDelegate = {"checkable": False, "container": thermostat_QQuickWindowQmlImpl, "id": "item1", "type": "ItemDelegate", "unnamed": 1, "visible": True}
+thermostat_background_Rectangle = {"container": thermostat_QQuickWindowQmlImpl, "id": "background", "occurrence": 13, "type": "Rectangle", "unnamed": 1, "visible": True}
+thermostat_Stats_Label = {"container": thermostat_QQuickWindowQmlImpl, "text": "Stats", "type": "Label", "unnamed": 1, "visible": True}
+thermostat_RoomsView = {"container": thermostat_QQuickWindowQmlImpl, "type": "RoomsView", "unnamed": 1, "visible": True}
+scrollView_RoomsScrollView = {"container": thermostat_RoomsView, "id": "scrollView", "type": "RoomsScrollView", "unnamed": 1, "visible": True}
+scrollView_24_Label = {"container": scrollView_RoomsScrollView, "text": 24, "type": "Label", "unnamed": 1, "visible": True}
+scrollView_background_Rectangle = {"container": scrollView_RoomsScrollView, "id": "background", "type": "Rectangle", "unnamed": 1, "visible": True}
+thermostat_columnItem_ItemDelegate = {"checkable": False, "container": thermostat_QQuickWindowQmlImpl, "id": "columnItem", "type": "ItemDelegate", "unnamed": 1, "visible": True}
+thermostat_columnItem_ItemDelegate_2 = {"checkable": False, "container": thermostat_QQuickWindowQmlImpl, "id": "columnItem", "occurrence": 3, "type": "ItemDelegate", "unnamed": 1, "visible": True}
+thermostat_background_Rectangle_2 = {"container": thermostat_QQuickWindowQmlImpl, "id": "background", "occurrence": 11, "type": "Rectangle", "unnamed": 1, "visible": True}
+thermostat_columnItem_ItemDelegate_3 = {"checkable": False, "container": thermostat_QQuickWindowQmlImpl, "id": "columnItem", "occurrence": 4, "type": "ItemDelegate", "unnamed": 1, "visible": True}
+thermostat_toolBar_ToolBar = {"container": thermostat_QQuickWindowQmlImpl, "id": "toolBar", "type": "ToolBar", "unnamed": 1, "visible": True}
+toolBar_Rectangle = {"color": "#002125", "container": thermostat_toolBar_ToolBar, "type": "Rectangle", "unnamed": 1, "visible": True}
+toolBar_Rectangle_2 = {"color": "#ffffff", "container": thermostat_toolBar_ToolBar, "type": "Rectangle", "unnamed": 1, "visible": True}
+background_Rectangle = {"container": thermostat_RoomsView, "id": "background", "occurrence": 8, "type": "Rectangle", "unnamed": 1, "visible": True}
+thermostat_columnItem_ItemDelegate_4 = {"checkable": False, "container": thermostat_QQuickWindowQmlImpl, "id": "columnItem", "occurrence": 2, "type": "ItemDelegate", "unnamed": 1, "visible": True}
+scrollView_background_Rectangle_2 = {"container": scrollView_RoomsScrollView, "id": "background", "occurrence": 3, "type": "Rectangle", "unnamed": 1, "visible": True}
+scrollView_Master_Label = {"container": scrollView_RoomsScrollView, "text": "Master", "type": "Label", "unnamed": 1, "visible": True}
+background_Rectangle_2 = {"container": thermostat_ThermostatView, "id": "background", "occurrence": 18, "type": "Rectangle", "unnamed": 1, "visible": True}
+thermostat_StatisticsView = {"container": thermostat_QQuickWindowQmlImpl, "type": "StatisticsView", "unnamed": 1, "visible": True}
+background_Rectangle_3 = {"container": thermostat_StatisticsView, "id": "background", "occurrence": 6, "type": "Rectangle", "unnamed": 1, "visible": True}
+statistics_Label = {"container": thermostat_StatisticsView, "text": "Statistics", "type": "Label", "unnamed": 1, "visible": True}
+o_StatisticsScrollView = {"container": thermostat_StatisticsView, "type": "StatisticsScrollView", "unnamed": 1, "visible": True}
+chart_DeclarativeChart = {"container": o_StatisticsScrollView, "id": "chart", "type": "DeclarativeChart", "unnamed": 1, "visible": True}
+welcome_Label = {"container": thermostat_RoomsView, "text": "Welcome", "type": "Label", "unnamed": 1, "visible": True}
+scrollView_14_Label = {"container": scrollView_RoomsScrollView, "text": 14, "type": "Label", "unnamed": 1, "visible": True}
+adjust_your_thermostat_settings_Label = {"container": thermostat_ThermostatView, "text": "Adjust your thermostat settings", "type": "Label", "unnamed": 1, "visible": True}
+scrollView_toggle_CustomSwitch = {"checkable": True, "container": scrollView_RoomsScrollView, "id": "toggle", "type": "CustomSwitch", "unnamed": 1, "visible": True}
+delegate_Power_CustomRoundButton = {"checkable": True, "container": delegate_ThermostatScrollView, "id": "powerButton", "text": "Power", "type": "CustomRoundButton", "unnamed": 1, "visible": True}
+comboBox_CustomComboBox = {"container": thermostat_StatisticsView, "id": "comboBox", "type": "CustomComboBox", "unnamed": 1, "visible": True}
+comboBoxItem_ItemDelegate_2 = {"checkable": False, "container": thermostat_Overlay, "id": "comboBoxItem", "occurrence": 3, "type": "ItemDelegate", "unnamed": 1, "visible": True}
+delegate_Flickable = {"container": delegate_ThermostatScrollView, "type": "Flickable", "unnamed": 1, "visible": True}
+delegate_handleItem_Rectangle = {"container": delegate_ThermostatScrollView, "id": "handleItem", "type": "Rectangle", "unnamed": 1, "visible": True}
