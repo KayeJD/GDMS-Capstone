@@ -7,7 +7,6 @@
 In order to utilize Squish's OCR functionality, tesseract needs to be installed and configured.
 
 
-
 ### Test Reporting
 
 There are 2 ways to store test reports in squish. 
@@ -25,11 +24,13 @@ testSettings.reportFormat = "html"  # or "xml" for XML reports
 
 Squish comes with **Squish Test Center** which can be configured using the isntructions listed [here](https://doc.qt.io/squish/test-center-view.html#ide-the-test-center-view).
 
+
 ## Dev Reminders
 
 ### Branch naming convention
 - **TG-{ticketNumber}**: ticketNumber corresponds to Tiga backlog ticket number. 
 - **testsuite_{lastName}**: individual branches for experimental test cases (experimental code)
+
 
 ### Commit message template
 ```
@@ -45,7 +46,6 @@ TG-{###} {#ready, #closed, #etc.}
 # Include at least one empty line before it. Format: 
 # Co-authored-by: name <user@users.noreply.github.com>
 ```
-
 
 ### Taiga Integrations
 #### Capabilities
