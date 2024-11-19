@@ -1,4 +1,3 @@
-import os
 import os.path
 import sys
 
@@ -14,8 +13,8 @@ def main():
 def save_screenshot(obj_name, filename):
     widget = waitForObject(obj_name)
     img = object.grabScreenshot(widget)
-    img.save(filename)
-    testData.get(filename)
+    # img.save(filename)
+    test.attachImage(img)
 
 def registerAUT(aut, path, squishserver_host=None, squishserver_port=None):
     s = '"' + os.environ["SQUISH_PREFIX"] + '/bin/squishrunner"'

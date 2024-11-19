@@ -28,11 +28,12 @@ def verifyToggleSwitchState(toggleSwitch, expectedState):
             toggleSwitch, expectedState, currentState))
         save_screenshot("toggle_CustomSwitch.png")
     else:
-                test.passes("Toggle switch state is correct: {}", str(currentState))
+        test.passes("Toggle switch state is correct: {}", str(currentState))
         
         
 def runTestRecording():
     # start up the gui
+    # attachToApplication("ThermostatApp")
     startApplication("ThermostatApp")
     setWindowState(waitForObject(names.thermostat_QQuickWindowQmlImpl), WindowState.Maximize)
     snooze(0.5)
@@ -56,7 +57,7 @@ def runTestRecording():
     snooze(0.5)
     
     # CustomSwitch should return fail cases
-    verifyToggleSwitchState(names.scrollView_toggle_CustomSwitch, True) # NOTE: change to False to pass case
+    verifyToggleSwitchState(names.scrollView_toggle_CustomSwitch, False) # NOTE: change to False to pass case
     verifyToggleSwitchState(names.scrollView_toggle_CustomSwitch_2, True)  
 
     snooze(1)
@@ -80,7 +81,7 @@ def save_screenshot(filename):
     img = object.grabScreenshot(widget)
     
 
-    screenshot_dir = '/home/kadum/screenshots'
+    screenshot_dir = '/home/kadum/GDMS-Capstone/suite_dynamic_resize/tst_screenshotting'
     if not os.path.exists(screenshot_dir):
         os.makedirs(screenshot_dir)
     
