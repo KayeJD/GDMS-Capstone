@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 
-# This template 
-
 import names
 
 
 def main():
     startApplication("ThermostatApp")
-    mouseClick(waitForObject(names.thermostat_MultiEffect), 15, 12, Qt.LeftButton)
-    test.ocrTextPresent("Thermostat Control");
-    mouseClick(waitForObject(names.thermostat_columnItem_ItemDelegate), 47, 32, Qt.LeftButton)
-    snooze(3.1)
+    mouseClick(waitForObject(names.welcome_Label))
+    mouseWheel(waitForObject(names.scrollView_Living_Room_Label), 6, 19, 0, 3270, Qt.NoModifier)
+    doubleClick(waitForObject(names.here_s_the_list_of_your_Rooms_at_Home_Label))
+    mouseWheel(waitForObject(names.scrollView_24_Label), 8, 4, 0, 855, Qt.NoModifier)
+    snooze(2.7)
     closeWindow(names.thermostat_QQuickWindowQmlImpl)
