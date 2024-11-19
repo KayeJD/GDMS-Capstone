@@ -1,28 +1,12 @@
 # GDMS-Capstone
 
+<!--- TODO 
+ OCR: write how-to documentation for OCR testing APIs and GUI
+ --->
+
 ## Environment Set-up Requirements
-
-### OCR Testing
-
-In order to utilize Squish's OCR functionality, tesseract needs to be installed and configured.
-
-
-### Test Reporting
-
-There are 2 ways to store test reports in squish. 
-
-#### Local Folder
-1. Write scripts to automate updates
-
-```
-testSettings.logScreenshotOnPass = True
-testSettings.reportFormat = "html"  # or "xml" for XML reports
-```
-
-#### Server
-<img width="1229" alt="image" src="https://github.com/user-attachments/assets/b966c15a-3cff-4086-aea3-cd2605694e12">
-
-Squish comes with **Squish Test Center** which can be configured using the isntructions listed [here](https://doc.qt.io/squish/test-center-view.html#ide-the-test-center-view).
+1. Set up **Tesseract engine** for OCR testing. See documentation
+2. Set up **Squish Server**. See documentation [here](squishserver_setup_instructions.md)
 
 
 ## Dev Reminders
