@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+
+import names
+
+
+def main():
+    startApplication("addressbook")
+    activateItem(waitForObjectItem(names.address_Book_QMenuBar, "File"))
+    activateItem(waitForObjectItem(names.address_Book_File_QMenu, "New"))
+    clickButton(waitForObject(names.address_Book_Unnamed_Add_QToolButton))
+    sendEvent("QMoveEvent", waitForObject(names.address_Book_Add_Dialog), 336, 236, 256, 156)
+    mouseClick(waitForObject(names.forename_LineEdit), 54, 3, Qt.NoModifier, Qt.LeftButton)
+    type(waitForObject(names.forename_LineEdit), "sds")
+    type(waitForObject(names.forename_LineEdit), "<Backspace>")
+    type(waitForObject(names.forename_LineEdit), "<Backspace>")
+    type(waitForObject(names.forename_LineEdit), "<Backspace>")
+    type(waitForObject(names.forename_LineEdit), "goon")
+    mouseClick(waitForObject(names.surname_LineEdit), 43, 16, Qt.NoModifier, Qt.LeftButton)
+    type(waitForObject(names.surname_LineEdit), "goon")
+    mouseClick(waitForObject(names.phone_LineEdit), 30, 8, Qt.NoModifier, Qt.LeftButton)
+    mouseClick(waitForObject(names.email_LineEdit), 30, 22, Qt.NoModifier, Qt.LeftButton)
+    type(waitForObject(names.email_LineEdit), "goon@xy,=zl")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "zlc")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), ",com")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), "<Backspace>")
+    type(waitForObject(names.email_LineEdit), ".com")
+    mouseClick(waitForObject(names.phone_LineEdit), 29, 11, Qt.NoModifier, Qt.LeftButton)
+    type(waitForObject(names.phone_LineEdit), "121232323")
+    clickButton(waitForObject(names.address_Book_Add_Cancel_QPushButton, 269193))
