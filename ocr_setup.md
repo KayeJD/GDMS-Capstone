@@ -12,13 +12,13 @@
 ## Instructions
 
 1. Follow tesseract installation process. Make sure to enable **Register the Tesseract installation with Squish**.
-![alt text](image-1.png)
+![alt text](info_assets/image-1.png)
 2. Configure Tesseract OCR engine by clicking **Edit > Preferences** to open the Preferences window. Then in the side bar, **Squish > OCR > Tesseract** to ensure installation path with Squish. 
 3. Verify with test run. 
 
 
 ## Verify with test run
-![alt text](Screen-Recording-2024-11-15-at-2.gif)
+![alt text](info_assets/Screen-Recording-2024-11-15-at-2.gif)
 
 1. Record a test case the way you normally would using the Squish GUI
 2. Find **OCR Text** under the **Verify** tab 
@@ -33,7 +33,7 @@
 
     **1a. Make sure you choose a proper display card:**
 
-     ![alt text](image-2.png)
+     ![alt text](info_assets/image-2.png)
 
     ** NOTE: If you see Guest drivers are required for GPU acceleration when selecting **virtio-gpu-gl-pci**, run:
     ```
@@ -65,7 +65,7 @@
     ```
 
     **1c. In the Login screen, click the Xorg on the bottom left corner**.
-    ![alt text](image-5.png)
+    ![alt text](info_assets/image-5.png)
     
 
 
