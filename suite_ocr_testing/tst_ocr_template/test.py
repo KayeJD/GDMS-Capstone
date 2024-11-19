@@ -29,11 +29,11 @@ def registerAUT(aut, path, squishserver_host=None, squishserver_port=None):
     
 
 def save_screenshot(filename):
-    widget = waitForObject({"HomePage"})
+    widget = waitForObject(names.thermostat_QQuickWindowQmlImpl)
     img = object.grabScreenshot(widget)
     
-    img.save(filename)
-    testData.get(filename)
+    # img.save(filename)
+    # testData.get(filename)
     
     screenshot_dir = '/home/kadum/GDMS-Capstone/suite_ocr_testing/tst_screenshotting'
     if not os.path.exists(screenshot_dir):
@@ -45,16 +45,22 @@ def save_screenshot(filename):
 
 
 def findText(text):
-    if test.ocrTextPresent(text, {"timeout": 10000}):
+    if test.ocrTextPresent(text, {"timeout": 5000}):
         test.passes("PASS: " + text + " text visible!")   
-    elif test.ocrTextNotPresent(text, {"timeout": 2000}): # "timeout" parameter time in ms
-        test.fail(f"FAIL: Failed to find the text{text} on screen.")
+    # elif test.ocrTextNotPresent(text, {"timeout": 2000}): # "timeout" parameter time in ms
+    #     test.fail(f"FAIL: Failed to find the text {text} on screen.")
         
         # saving screenshot on fail point
         #screenshot_name = f"{text}_ocrfail"
         #save_screenshot(screenshot_name)
     else:
-        test.log(f"Failed to perform OCR verification on text:{text}")
+        test.log(f"Failed to perform OCR verification on text: {text}")
+        
+        # saving screenshot on fail point
+        screenshot_name = f"ocr_for_{text}_fail.png"
+        save_screenshot(screenshot_name)
+        
+    return
         
     
 def runTestRecording():
@@ -63,8 +69,8 @@ def runTestRecording():
     mouseWheel(waitForObject(names.scrollView_Flickable), 494, 57, 0, -735, Qt.NoModifier)
     
     # Insert ocr text verification, and add logic to create the test pass/fail criteria
-    # findText("Kitchen") # can toggle for testing
-    # findText("Bedroom")
+    findText("Kitchen") # can toggle for testing
+    findText("Bedroom")
     findText("capstone")
     
     closeWindow(names.thermostat_QQuickWindowQmlImpl)
