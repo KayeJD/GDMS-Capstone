@@ -18,6 +18,7 @@
 
 
 ## Verify with test run
+
 ![alt text](info_assets/Screen-Recording-2024-11-15-at-2.gif)
 
 1. Record a test case the way you normally would using the Squish GUI
