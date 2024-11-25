@@ -14,33 +14,13 @@ and then invoke the function which tests the page.
 
 ### OCR Testing
 
-In order to utilize Squish's OCR functionality, tesseract needs to be installed and configured.
-
-
-### Test Reporting
-
-There are 2 ways to store test reports in squish. 
-
-#### Local Folder
-1. Write scripts to automate updates
-
-```
-testSettings.logScreenshotOnPass = True
-testSettings.reportFormat = "html"  # or "xml" for XML reports
-```
-
-#### Server
-<img width="1229" alt="image" src="https://github.com/user-attachments/assets/b966c15a-3cff-4086-aea3-cd2605694e12">
-
-Squish comes with **Squish Test Center** which can be configured using the isntructions listed [here](https://doc.qt.io/squish/test-center-view.html#ide-the-test-center-view).
-
+In order to utilize Squish's OCR functionality, tesseract needs to be installed and configured. See ocr_setup.md file for more details. 
 
 ## Dev Reminders
 
 ### Branch naming convention
 - **TG-{ticketNumber}**: ticketNumber corresponds to Tiga backlog ticket number. 
 - **testsuite_{lastName}**: individual branches for experimental test cases (experimental code)
-
 
 ### Commit message template
 ```
@@ -56,6 +36,7 @@ TG-{###} {#ready, #closed, #etc.}
 # Include at least one empty line before it. Format: 
 # Co-authored-by: name <user@users.noreply.github.com>
 ```
+
 
 ### Taiga Integrations
 #### Capabilities
