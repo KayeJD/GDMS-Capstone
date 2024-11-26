@@ -1,0 +1,28 @@
+This talks about the different functionalities and ways text can be recognized in OCR Testing. While testing some things out in OCR for the thermostat application, I came across
+
+1. Default
+Mode: Full-text recognition.
+Use Case: Best suited for documents or images containing dense text, such as paragraphs, pages of books, or formal documents.
+  Behavior:
+  Assumes the image has continuous blocks of text.
+  Focuses on detecting text comprehensively, from dense paragraphs to individual lines.
+  Performs layout analysis to determine text flow (e.g., left-to-right, top-to-bottom).
+  Advantages: Accurate for structured, dense text.
+
+2. Sparse Text
+Mode: Minimal layout analysis.
+Use Case: For images where text appears in isolated spots or is scattered (e.g., captions, labels, diagrams, or photos with some text).
+  Behavior:
+  Assumes text is sparse and not part of a dense layout.
+  Focuses only on recognizing text regions without trying to infer relationships between them (e.g., text alignment or order).
+  Skips detailed layout processing for speed.
+Advantages: Faster and more suitable for detecting scattered or standalone text.
+
+3. Sparse Text+ (not quite sure on this, need more help on understanding) 
+Mode: Sparse text with orientation and script detection.
+Use Case: For images with sparse text where you also need to identify text orientation or languages/scripts.
+  Behavior:
+  Includes all features of sparse text mode.
+  Adds extra processing to detect the orientation of the text (e.g., rotated text) and auto-detect the language/script.
+  Useful for scenarios where text may appear at different angles (e.g., photos of signage or labels in multiple languages).
+Advantages: Combines the efficiency of sparse text mode with additional features like orientation handling and script detection.
