@@ -1,0 +1,15 @@
+# ninja log v6
+2	15	1732639693176674697	user-input-test-application_autogen/timestamp	a68e3b37c6442068
+2	15	1732639693176674697	/home/tony/user-input-test-application/build/Desktop_Qt_6_7_3-Debug/user-input-test-application_autogen/timestamp	a68e3b37c6442068
+655	777	1732639693829662111	user-input-test-application	3288e8b252f9badd
+2	15	1732639693176674697	user-input-test-application_autogen/mocs_compilation.cpp	a68e3b37c6442068
+2	15	1732639693176674697	/home/tony/user-input-test-application/build/Desktop_Qt_6_7_3-Debug/user-input-test-application_autogen/mocs_compilation.cpp	a68e3b37c6442068
+122	926	1732609492092745548	CMakeFiles/user-input-test-application.dir/user-input-test-application_autogen/mocs_compilation.cpp.o	ee4ee6e61b5118f9
+122	957	1732609492092745548	CMakeFiles/user-input-test-application.dir/main.cpp.o	7e0d57a0a371e80
+15	655	1732639693189674447	CMakeFiles/user-input-test-application.dir/mainwindow.cpp.o	518ea36f9f379164
+5	25	1732640620720428913	user-input-test-application_autogen/timestamp	a68e3b37c6442068
+5	25	1732640620720428913	user-input-test-application_autogen/mocs_compilation.cpp	a68e3b37c6442068
+5	25	1732640620720428913	/home/tony/user-input-test-application/build/Desktop_Qt_6_7_3-Debug/user-input-test-application_autogen/timestamp	a68e3b37c6442068
+5	25	1732640620720428913	/home/tony/user-input-test-application/build/Desktop_Qt_6_7_3-Debug/user-input-test-application_autogen/mocs_compilation.cpp	a68e3b37c6442068
+25	733	1732640620740428653	CMakeFiles/user-input-test-application.dir/mainwindow.cpp.o	518ea36f9f379164
+733	867	1732640621448419436	user-input-test-application	3288e8b252f9badd
