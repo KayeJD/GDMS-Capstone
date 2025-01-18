@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc6015f10df149a496c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sampleApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-09c3cc0f9e5c6c9478cd.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-8026fbd98c5bc2f95d64.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-b413a830047cdd1df654.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-799f166acbacc546cdf1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp-Debug-3375d808763f05bcd92f.json",
+					"name" : "appsampleApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_autogen-Debug-1a990c18d10a48e41f27.json",
+					"name" : "appsampleApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_autogen_timestamp_deps-Debug-cfcc3f7366a805efb95a.json",
+					"name" : "appsampleApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_qmlimportscan-Debug-592d16b348d4ad9a6856.json",
+					"name" : "appsampleApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_qmllint-Debug-38f71229cd0d917e5869.json",
+					"name" : "appsampleApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_qmllint_json-Debug-d13f554f3cb624fdde43.json",
+					"name" : "appsampleApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_qmllint_module-Debug-6b7222396d19e60a94f7.json",
+					"name" : "appsampleApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_qmltyperegistration-Debug-626d0bfc8b11119fb09f.json",
+					"name" : "appsampleApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsampleApp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsampleApp_tooling-Debug-e203e993788b565fc5ec.json",
+					"name" : "appsampleApp_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kadum/sampleApp/build/Desktop_Qt_6_7_3-Debug",
+		"source" : "/home/kadum/sampleApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -22,3 +22,6 @@ welcome_Label = {"container": thermostat_RoomsView, "text": "Welcome", "type": "
 scrollView_Living_Room_Label = {"container": scrollView_RoomsScrollView, "text": "Living Room", "type": "Label", "unnamed": 1, "visible": True}
 here_s_the_list_of_your_Rooms_at_Home_Label = {"container": thermostat_RoomsView, "text": "Here's the list of your Rooms at Home", "type": "Label", "unnamed": 1, "visible": True}
 scrollView_24_Label = {"container": scrollView_RoomsScrollView, "text": 24, "type": "Label", "unnamed": 1, "visible": True}
+thermostat_columnItem_ItemDelegate_2 = {"checkable": False, "container": thermostat_QQuickWindowQmlImpl, "id": "columnItem", "occurrence": 3, "type": "ItemDelegate", "unnamed": 1, "visible": True}
+thermostat_MultiEffect_4 = {"container": thermostat_QQuickWindowQmlImpl, "occurrence": 4, "type": "MultiEffect", "unnamed": 1, "visible": True}
+background_Rectangle = {"container": thermostat_RoomsView, "id": "background", "occurrence": 8, "type": "Rectangle", "unnamed": 1, "visible": True}

@@ -1,0 +1,10 @@
+-I
+/home/kadum/sampleApp/build/Desktop_Qt_6_7_3-Debug
+-I
+/home/kadum/Qt/6.7.3/gcc_arm64/qml
+--resource
+/home/kadum/sampleApp/build/Desktop_Qt_6_7_3-Debug/.qt/rcc/qmake_sampleApp.qrc
+--resource
+/home/kadum/sampleApp/build/Desktop_Qt_6_7_3-Debug/.qt/rcc/appsampleApp_raw_qml_0.qrc
+--module
+sampleApp
