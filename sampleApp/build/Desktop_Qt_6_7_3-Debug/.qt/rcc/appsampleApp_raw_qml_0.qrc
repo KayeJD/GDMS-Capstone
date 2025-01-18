@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/sampleApp/">
+    <file alias="Main.qml">/home/kadum/sampleApp/Main.qml</file>
+    <file alias="images.qrc">/home/kadum/sampleApp/images.qrc</file>
+  </qresource>
+</RCC>
+
