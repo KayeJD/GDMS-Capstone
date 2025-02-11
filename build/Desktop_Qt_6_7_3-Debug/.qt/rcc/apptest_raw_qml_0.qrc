@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/test/">
+    <file alias="Main.qml">/home/egunti/test/Main.qml</file>
+  </qresource>
+</RCC>
+

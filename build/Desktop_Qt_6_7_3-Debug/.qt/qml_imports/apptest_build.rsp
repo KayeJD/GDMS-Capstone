@@ -1,0 +1,14 @@
+-rootPath
+/home/egunti/test
+-cmake-output
+-output-file
+/home/egunti/test/build/Desktop_Qt_6_7_3-Debug/.qt/qml_imports/apptest_build.cmake
+-importPath
+/home/egunti/test/build/Desktop_Qt_6_7_3-Debug/test
+-importPath
+/home/egunti/test/build/Desktop_Qt_6_7_3-Debug
+-importPath
+/home/egunti/Qt/6.7.3/gcc_arm64/qml
+-qrcFiles
+/home/egunti/test/build/Desktop_Qt_6_7_3-Debug/.qt/rcc/qmake_test.qrc
+/home/egunti/test/build/Desktop_Qt_6_7_3-Debug/.qt/rcc/apptest_raw_qml_0.qrc
